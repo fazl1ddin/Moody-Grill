@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("img/Background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.window {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+    padding-bottom: 25px;
+}
+.navbar ul {
+    border: #efba20 solid 2px;
+    box-sizing: border-box;
+    margin: 51px 0 51px 60px;
+    width: 925px;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar ul li {
+    list-style-type: none;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #efba20;
+    font-size: 33px;
+    text-transform: uppercase;
+    font-family: "open sans", sans-serif;
+}
+.navbar ul .active {
+    padding: 1px 20px;
+    color: white;
+    background-color: #efba20;
+}
+.header {
+    background-image: url("img/Background\ \(1\).png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+}
+.hdContent {
+    margin-bottom: 60px;
+}
+.hdContent .hdContentBox.steak .hdContentText {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding-bottom: 60px;
+}
+.hdContent .hdContentBox.steak .hdContentText h1 {
+    background-color: #efba20;
+    font-family: "open sans", sans-serif;
+    font-size: 47px;
+    font-weight: 900;
+    display: block;
+    padding: 0;
+}
+.hdContent .hdContentBox.steak .hdContentText h2 {
+    font-family: "open sans", sans-serif;
+    font-size: 41px;
+    color: white;
+    border: #efba20 10px solid;
+    border-top: none;
+    padding: 5px 0;
+}
+.hdContent .hdContentBox.steak h1 {
+    text-align: center;
+    font-family: "open sans", sans-serif;
+    font-weight: lighter;
+    color: white;
+    padding-bottom: 60px;
+}
+.hdContent .hdNav {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 35px;
+}
+.hdContent .hdNav .dot {
+    width: 42px;
+    height: 42px;
+    background-image: url("img/Слой\ 3.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hdContent .hdNav .dot.act {
+    background-image: url("img/Слой\ 4.png");
+}
+.mainMenu {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("img/Background\ \(2\).png");
+    margin-bottom: 60px;
+}
+.mainMenu h1 {
+    font-family: "fjalla one", sans-serif;
+    font-size: 63px;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    line-height: 100%;
+}
+.mainMenuContent {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.mainMenuContent .mainMenuContentBox {
+    padding-bottom: 50px;
+}
+.mainMenuContent .mainMenuContentBox .mainMenuContentImages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainMenuContent .mainMenuContentBox .mainMenuContentImages img {
+    width: 365px;
+    height: 351px;
+}
+.mainMenuContent .mainMenuContentPrice {
+    width: 365px;
+}
+.mainMenuContent .mainMenuContentPrice h1 {
+    background-color: #e1b738;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 0;
+    color: #262626;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-family: "open sans", sans-serif;
+}
+.mainMenuContent .mainMenuContentPrice .mainMenuContentDinnerPrice {
+    border: 3px solid #e1b738;
+}
+.mainMenuContent .mainMenuContentPrice .mainMenuContentDinnerPrice .representativesc {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: "open sans", sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+}
+.mainMenuContent .mainMenuContentPrice .mainMenuContentDinnerPrice .representativesc p {
+    padding: 12.5px 10px;
+    line-height: 100%;
+}
+.mainDiscount {
+    background-image: url("img/Background\ \(3\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 60px;
+}
+.mainDiscountContent {
+    display: flex;
+    justify-content: space-between;
+}
+.mainDiscountContent .mainDiscountContentImage {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.mainDiscountContent .mainDiscountContentText {
+    text-align: right;
+    width: 50%;
+    padding: 85px 0 ;
+}
+.mainDiscountContent .mainDiscountContentText h1 {
+    color: #e1b838;
+    font-family: "open sans", sans-serif;
+    font-weight: normal;
+    width: 510px;
+    margin-left: auto;
+    font-size: 54px;
+}
+.mainDiscountContent .mainDiscountContentText a {
+    width: 190px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    text-align: center;
+    color: #262626;
+    background-color: #efba20;
+    text-decoration: none;
+    line-height: 40px;
+    font-family: "fjalla one", sans-serif;
+    font-size: 27px;
+    margin-top: 25px;
+    margin-bottom: 120px;
+}
+.mainDiscountContent .mainDiscountContentText .mainDiscountContentLogo h2 {
+    font-family: "fjalla one", sans-serif;
+    color: #e1b838;
+    font-size: 34px;
+    font-weight: normal;
+    padding-top: 20px;
+    text-shadow: #050603 10px 15px 10px;
+}
+.mainSpecial {
+    background-image: url("img/Background\ \(4\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 170px;
+}
+.mainSpecialText {
+    display: flex;
+    justify-content: space-between;
+    font-family: "open sans", sans-serif;
+}
+.mainSpecialText p {
+    width: 625px;
+    font-size: 29px;
+    color: white;
+    padding-top: 80px;
+    font-size: 29px;
+}
+.mainSpecialText .mainSpecialTextBox {
+    width: 545px;
+    text-align: center;
+    padding-top: 80px;
+}
+.mainSpecialText .mainSpecialTextBox h1 {
+    color: #262626;
+    background-color: #e1b737;
+    width: 100%;
+    line-height: 70px;
+    font-weight: 900;
+    font-size: 41px;
+}
+.mainSpecialText .mainSpecialTextBox h2 {
+    font-size: 41px;
+    display: block;
+    border: 5px #e1b737 solid;
+    line-height: 120px;
+    color: white;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    font-weight: 700;
+    border-top: none;
+}
+.mainSpecialContent {
+    height: 540px;
+}
+.mainSpecialContent img {
+    position: absolute;
+}
+.mainMethod {
+    background-image: url("img/Background\ \(5\).png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+}
+.mainMethod .mainMethodContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainMethod .mainMethodContent .mainMethodImage {
+    padding-top: 130px;
+}
+.mainMethod .mainMethodContent .mainMethodText {
+    width: 585px;
+    font-family: "open sans", sans-serif;
+}
+.mainMethod .mainMethodContent .mainMethodText h1 {
+    font-weight: 900;
+    font-size: 58px;
+    display: block;
+    background-color: #e1b737;
+    padding-left: 40px;
+    line-height: 90px;
+    color: #262626;
+}
+.mainMethod .mainMethodContent .mainMethodText h2 {
+    font-weight: normal;
+    font-size: 38px;
+    padding: 25px 35px;
+    border: 10px #e1b737 solid;
+    box-sizing: border-box;
+    border-top: none;
+    color: white;
+    font-weight: 300;
+    word-spacing: 25px;
+}
+.mainLive {
+    background-image: url("img/Background\ \(6\).png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 120px;
+}
+.mainLiveText {
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+}
+.mainLiveText p {
+    width: 575px;
+    font-size: 42px;
+    color: white;
+    font-family: "open sans", sans-serif;
+    padding-top: 125px;
+    padding-left: 45px;
+}
+.mainLiveText .mainLiveTextBox {
+    width: 490px;
+    text-align: center;
+    font-family: "open sans", sans-serif;
+}
+.mainLiveText .mainLiveTextBox h1 {
+    background-color: #e1b737;
+    font-size: 59px;
+    font-weight: 900;
+    line-height: 100px;
+}
+.mainLiveText .mainLiveTextBox h2 {
+    font-size: 58px;
+    font-weight: 900;
+    padding: 30px 65px;
+    font-weight: 700;
+    color: white;
+    border: #e1b737 10px solid;
+    box-sizing: border-box;
+    border-top: none;
+}
+.mainLiveText .mainLiveTextBox h2::after {
+    content: "Every Friday";
+    font-weight: 500;
+}
+.mainLive img {
+    width: 100%;
+}
+.mainOpenMeat {
+    text-align: center;
+    font-family: "fjalla one", sans-serif;
+    padding-bottom: 65px;
+}
+.mainOpenMeat h1 {
+    color: #e1b838;
+    font-size: 46px;
+    text-shadow: 10px 10px 5px #060604;
+}
+.mainOpenContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+.mainOpenContent .mainOpenMode {
+    width: 435px;
+    font-family: "open sans", sans-serif;
+    text-align: center;
+}
+.mainOpenContent .mainOpenMode h1 {
+    font-weight: 900;
+    background-color: #e1b838;
+    line-height: 60px;
+    font-size: 37px;
+}
+.mainOpenContent .mainOpenMode h2 {
+    color: white;
+    font-size: 30px;
+    border: #e1b737 5px solid;
+    box-sizing: border-box;
+    border-top: none;
+    font-weight: bold;
+    padding: 10px 0 ;
+    line-height: 100%;
+}
+.mainOpenContent .mainOpenFootNav ul {
+    padding-left: 45px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 440px;
+}
+.mainOpenContent .mainOpenFootNav ul li {
+    list-style-type: none;
+    width: 140px;
+    padding-left: 80px;
+}
+.mainOpenContent .mainOpenFootNav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 34px;
+    font-family: "open sans", sans-serif;
+    line-height: 180%;
+}
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "open sans", sans-serif;
+    padding-bottom: 75px;
+}
+.footerContent h1 {
+    color: white;
+    font-size: 41px;
+    font-weight: normal;
+}
+.footerContent .footerInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerContent .footerInfo a {
+    padding-right: 20px;
+}
+.footerContent .footerInfo a img {
+    display: block;
+}
+.footerContent .footerInfo h1 {
+    color: #e1b838;
+    line-height: 100%;
+}
